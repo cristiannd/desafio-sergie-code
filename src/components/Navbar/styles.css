@@ -1,0 +1,32 @@
+nav > ul {
+  display: flex;
+  gap: 1rem;
+}
+
+nav > ul > li.active {
+  background-color: #3f6cff;
+  border: none;
+}
+
+nav > ul > li.active > a {
+  color: #fff;
+}
+
+nav > ul > li {
+  display: grid;
+  place-content: center;
+  width: 200px;
+  height: 2rem;
+  list-style: none;
+  border-radius: 5px;
+  border: 1px solid #d4d4d4;
+}
+
+nav > ul > li:hover {
+  box-shadow: 0 0 5px 0 #00000050;
+}
+
+nav > ul > li > a {
+  color: #000;
+  text-decoration: none;
+}

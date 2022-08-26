@@ -1,0 +1,58 @@
+.form-container {
+  width: 30rem;
+  padding: 2rem;
+  border: 1px solid #d4d4d4;
+  border-radius: 5px;
+}
+
+.form-container > h2 {
+  width: 20rem;
+  padding-left: 3rem;
+  padding-bottom: 0.5rem;
+}
+
+.form-container > form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.form-container > form > input,
+.form-container > form > select {
+  width: 20rem;
+  border: 1px solid #d4d4d4;
+  border-radius: 5px;
+}
+
+.form-container > form > input:focus,
+.form-container > form > select:focus {
+  outline: 2px solid #3f6cff;
+  border: none;
+}
+
+.form-container > form > select > option {
+  height: 1rem;
+}
+
+.form-container > form > input {
+  padding: 0.5rem 1rem;
+  
+}
+
+.form-container > form > select {
+  padding: 0.5rem 0.75rem;
+}
+
+.form-container > form > button {
+  color: #fff;
+  background-color: #3f6cff;
+  width: 6rem;
+  height: 2rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.form-container > form > button:hover {
+  box-shadow: 0 0 5px 0 #00000050;
+}
